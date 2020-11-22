@@ -21,6 +21,6 @@
 	include 'dbPost.php';
 	?>
 	
-	<!-- HI -->
+
 </body>
 </html>
