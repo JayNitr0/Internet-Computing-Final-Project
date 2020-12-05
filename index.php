@@ -16,8 +16,6 @@
 		<input type="password" name="password" id="password">
 	</form>
 
-	<!-- what is up dude-->
-
 	<?php 
 	include 'dbQuery.php';
 	include 'dbPost.php';
