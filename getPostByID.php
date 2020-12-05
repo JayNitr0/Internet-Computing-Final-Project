@@ -10,7 +10,7 @@ if ($resultCheck > 0) {
 		$postTextQuery = $fetchRow['text'];
 		$postTitleQuery = $fetchRow['title'];
 
-		echo "<span class='postTitleSubmitted'>$postTitleQuery</span><br>";
+		echo "<span class='postTitle'>$postTitleQuery</span><br>";
 		echo "<span class='postTextSubmitted'>$postTextQuery</span>";
 	}
 }
