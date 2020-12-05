@@ -1,7 +1,7 @@
 <?php
 include 'dbConnection.php'; 
 
-$sql = "SELECT * FROM post WHERE id = " . $_GET['id'] . ";";
+$sql = "SELECT * FROM post WHERE postID = " . $_GET['id'] . ";";
 $result = mysqli_query($conn, $sql);
 $resultCheck = mysqli_num_rows($result);
 
