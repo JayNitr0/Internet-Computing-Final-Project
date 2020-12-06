@@ -7,7 +7,7 @@
 </head>
 <body>
 	<div class="container">
-		<h1 class="text-center">Jchan</h1>
+		<h1 class="text-center" id="Jchan">Jchan</h1>
 		<div class="row">
 			
 			<div class="col-6">
