@@ -11,11 +11,11 @@
 		<div class="row">
 			
 			<div class="col-6">
-				<a class="text-center" href="index.php" id="homeButton">Home</a>
+				<a class="text-center" href="index.php" id="homeButton"><strong>Home</strong></a>
 			</div>
 			
 			<div class="col-6">
-				<a class="text-center" href="createDiscussion.php" id="createDiscussionButton">Create a Discussion</a>
+				<a class="text-center" href="createDiscussion.php" id="createDiscussionButton"><strong>Create a Discussion</strong></a>
 			</div>
 		</div>
 

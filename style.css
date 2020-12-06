@@ -1,10 +1,10 @@
 body {
-  background-color: #E3E8E8;
+  background-color: lightblue;
 }
 #Jchan {
-  background-color: #9aa6a6;
+  background-color: black;
   border: solid;
-  color: black;
+  color: white;
   padding: 15px;
   text-align: center;
   text-decoration: none;
@@ -16,8 +16,8 @@ body {
 }
 
 #homeButton {
-  background-color: #A2F7F9;
-  border: solid;
+  background-color: yellow;
+  border: solid black;
 	color: black;
   padding: 15px;
   text-align: center;
@@ -30,8 +30,8 @@ body {
 }
 
 #createDiscussionButton {
-	background-color: #A2F7F9;
-  border: solid;
+	background-color: yellow;
+  border: solid black;
 	color: black;
   padding: 15px;
   text-align: center;
@@ -55,6 +55,7 @@ body {
   margin: 4px 1px;
   cursor: pointer;
   width: 100%;
+  margin-bottom: 10px;
 }
 
 #postcomment {
