@@ -68,6 +68,20 @@ body {
   width: 100%;
 }
 
+#postcomment {
+  background-color: white;
+  box-shadow: 5px 5px 5px #9aa6a6; ;
+  color: black;
+  padding: 15px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 1px;
+  cursor: pointer;
+  width: 100%;
+}
+
 #postText {
 	background-color:;
 	height: 200px;
@@ -101,6 +115,7 @@ body {
 
 .postTitle {
   color: black;
+  width: 200px
   font-size: 20px;
 }
 
@@ -117,4 +132,6 @@ body {
   color: orchid;
 }
 
-
+#postCommentButton {
+  box-shadow: 5px 5px 5px #9aa6a6;
+}

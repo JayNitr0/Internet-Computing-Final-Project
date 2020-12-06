@@ -10,8 +10,10 @@ if ($resultCheck > 0) {
 		$postCommentQuery = $fetchRow['commentText'];
 		$postUsernameQuery = $fetchRow['username'];
 
-		echo "<span class='postCommentSubmitted'>$postCommentQuery</span>";
+		echo "<div id=\"postcomment\">";
 		echo "<span class='username'>$postUsernameQuery</span><br>";
+		echo "<p class='postCommentSubmitted'>$postCommentQuery</p>";
+		echo "</div>";
 	}
 }
 ?>
