@@ -15,8 +15,8 @@ if ($resultCheck > 0) {
 		echo "
 		<div class=\"card\" style=\"width: 50rem;\">
   		<div class=\"card-body\">
-    	<h5 class=\"card-title\"><a href=$idURL>$postTitleQuery</a></h5>
-   		<h6 class=\"card-subtitle mb-2 text-muted\">$postUsernameQuery</h6>
+    	<h5 class=\"card-title\" style=\"font_size: 18px\"><a href=$idURL>$postTitleQuery</a></h5>
+   		<h6 class=\"card-subtitle mb-3 text-muted\">$postUsernameQuery</h6>
     	<p class=\"card-text\">$postTextQuery.</p>
  		</div>
 		</div>

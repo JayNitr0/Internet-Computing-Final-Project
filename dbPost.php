@@ -6,6 +6,7 @@ if (isset($_POST["postButton"])) {
 	$postTextData = $_POST["postText"];
 	$postUsernameData = $_POST["username"];
 
+	
 	$query = "insert into post(title,text,username) values('$postTitleData' , '$postTextData' , '$postUsernameData')";
 	$run = mysqli_query($conn,$query);
 }
