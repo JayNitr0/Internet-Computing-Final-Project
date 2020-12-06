@@ -20,8 +20,11 @@
 		</div>
 
 		<?php 
-		include 'dbQuery.php';
-		include 'dbPost.php';
+		echo "<div class=\"row justify-content-center\">";
+			include 'dbQuery.php';
+    	echo "</div>";
+    	
+    	include 'dbPost.php';
 		?>
 	</div>
 

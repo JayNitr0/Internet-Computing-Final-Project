@@ -10,10 +10,17 @@ if ($resultCheck > 0) {
 		$postTitleQuery = $fetchRow['title'];
 		$postUsernameQuery = $fetchRow['username'];
 		$idURL = "/Internet-Computing-Final-Project/post.php?id=" . $postIdQuery;
+		$postTextQuery = $fetchRow['text'];
 
-		echo "<span class='postTitleSubmitted'><a href=$idURL>$postTitleQuery</a></span>";
-		echo "<span class='username'>$postUsernameQuery</span><br>";
-
+		echo "
+		<div class=\"card\" style=\"width: 50rem;\">
+  		<div class=\"card-body\">
+    	<h5 class=\"card-title\"><a href=$idURL>$postTitleQuery</a></h5>
+   		<h6 class=\"card-subtitle mb-2 text-muted\">$postUsernameQuery</h6>
+    	<p class=\"card-text\">$postTextQuery.</p>
+ 		</div>
+		</div>
+		";
 	}
 }
 ?>
