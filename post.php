@@ -13,7 +13,7 @@
 		<?php 
 		include 'getPostByID.php';
 		include 'dbComment.php';
-		$urlID = $_GET['id']
+		$urlID = $_GET['id'];
 		$usernameCookie = $_COOKIE['usernameCookie'];
 		?>
 
