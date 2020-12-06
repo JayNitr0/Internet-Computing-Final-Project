@@ -12,18 +12,20 @@
 		<a href="createDiscussion.php" id="createDiscussionButton">Create a Discussion</a>
 
 		<h2>Create a Discussion</h2>
-		<form action="index.php" method="post">
-				
-				<div class="row ml-1">
-					<input type="text" name="postTitle" id="postTitle" placeholder="title">
+		<form action="index.php" method="post" style="width: 50%">
+
+	 			<div class="form-group">
+	    		<label for="Title"><strong>Title</strong></label>
+	   			<input type="text" class="form-control" id="postTitle" name="postTitle" placeholder="title">
+	  			</div>
+
+				<div class="form-group">
+				<label for="text"><strong>Post</strong></strong></label>
+				<textarea class="form-control" id="postText" name="postText" rows="3" style="width: 100%"></textarea>
 				</div>
 
 				<div class="row ml-1">
-					<input type="text" name="postText" id="postText" placeholder="text(optional)">
-				</div>
-				
-				<div class="row ml-1">
-					<input type="submit" name="postButton" id="postButton" value="Post">
+					<input type="submit" name="postButton" id="postButton" value="Post" class="btn btn-info">
 				</div>
 
 				<?php
