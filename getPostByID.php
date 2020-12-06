@@ -9,11 +9,13 @@ if ($resultCheck > 0) {
 	while ($fetchRow = mysqli_fetch_assoc($result)) {
 		$postTextQuery = $fetchRow['text'];
 		$postTitleQuery = $fetchRow['title'];
- 	
- 	echo "<div id=\"titlecomment\">";
-		echo "<span class='postTitle'><strong>$postTitleQuery</strong></span><br>";
+ 		$postUsernameQuery = $fetchRow['username'];
+ 		
+ 		echo "<div id=\"titlecomment\">";
+		echo "<span class='username'>$postUsernameQuery</span><br>";
+		echo "<span class='postTitle'>$postTitleQuery</span><br>";
 		echo "<span class='postTextSubmitted'>$postTextQuery</span>";
-	echo "</div>";
+		echo "</div>";
 	}
 }
 ?>
