@@ -9,7 +9,7 @@
 	<div class="container">
 			<h1 class="text-center" id="Jchan">Jchan</h1>
 			<a href="index.php" id="homeButton">Home</a>
-			<a href="createDiscussion.html" id="createDiscussionButton">Create a Discussion</a>
+			<a href="createDiscussion.php" id="createDiscussionButton">Create a Discussion</a>
 		<?php 
 		include 'getPostByID.php';
 		include 'dbComment.php';
